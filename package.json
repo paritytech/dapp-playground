@@ -14,6 +14,10 @@
   "keywords": [],
   "scripts": {
     "build": "NODE_ENV=production webpack --colors --progress",
+    "lint": "npm run lint:css && npm run lint:js",
+    "lint:css": "echo \"WARN: npm run lint:css skipped\"",
+    "lint:js": "echo \"WARN: npm run lint:js skipped\"",
+    "test": "echo \"WARN: npm run test skipped\"",
     "watch": "webpack --colors --progress --watch"
   },
   "devDependencies": {
